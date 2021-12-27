@@ -2,7 +2,7 @@
 Q&A Django app which searches a Wikipedia page for answers using BERT
 
 ## Introduction
-This is a simple Django webapp which searches for an answer from a question and Wikipedia page query. This app is powered by the BERT Q&A model provided by <a href='https://huggingface.co/docs/transformers/index'>Hugging Face</a> and the <a href='https://pypi.org/project/Wikipedia-API/'>Wikipedia API</a>.
+This is a simple Django webapp which searches for an answer to a question from Wikipedia page query. This app is powered by the BERT Q&A model provided by <a href='https://huggingface.co/docs/transformers/index'>Hugging Face</a> and the <a href='https://pypi.org/project/Wikipedia-API/'>Wikipedia API</a>.
 
 <img src="https://github.com/ArnoldYSYeung/wikipedia_BERTbot/blob/main/images/interface.PNG" width="600"/>
 
