@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Wikipedia BERTbot</title>
+    </head>
+    <body>
+        <!-- retrieves url with name 'index'-->
+        <form action="{% url 'index' %}" method="post">
+            <!--form.as_p is the form object variable sent to/received to views.py-->
+            <!-- csrf_token is Django security-->
+            {% csrf_token %} {{form.as_p}}
+            <input type="submit" value="Ask">
+        </form>
+        <!--answer and score are object variables received from views.py-->
+        <p>The answer is: {{answer}}</p>
+        <p>The prediction score is: {{score}}</p>
+    </body>
+</html>
